@@ -1,0 +1,167 @@
+body {
+  width: 1920px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 100px;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;   /* 1em = 16px  "rem" - root em */
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  border-width: 10px;
+}
+.blyat {
+  font-size: 20px;
+}
+.TheEnd {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+}
+.middle_text {
+  margin: 0;
+  font-size: 13px;
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.use {
+  color: #66BFBF;
+  text-decoration: underline;
+  font-weight: normal;
+}
+.pop_cat {
+  position: fixed;
+  display: flex;
+  top: 70%;
+  left: 1%;
+  margin: 0;
+}
+.mountain {
+  margin: auto;
+  position: relative;
+}
+
+.cloud1 {
+  margin: auto;
+  position: absolute;
+  right: 550px;
+  top: 50px;
+}
+
+.cloud2 {
+  margin: auto;
+  position: absolute;
+  left: 550px;
+  bottom: 300px;
+}
+.end_colon {
+  font-size: 10px;
+}
+.volk {
+  font-family: sans-serif;
+}
+.walking_to_river {
+  color: #40514E;
+}
+
+.vk {
+  text-decoration: line-through;
+}
+.useless {
+  font-weight: normal;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.boom {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+.gorin {
+  float: right;
+  margin-bottom: 50px;
+}
+.contact-me {
+  clear: right;
+}
+.link-music {
+  text-align: center;
+  margin: 0 auto auto 200px;
+}
+
+.button {
+  border: 5px;
+  border-radius: 10px;
+  border-color: #66BFBF;
+  border-style: solid;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 35px;
+  margin: 40px 30px;
+  cursor: pointer;
+  font-family: 'Pacifico', cursive;
+  background-color: #66BFBF;
+  display: inline-block;
+}
+
+.bottom-container {
+  line-height: 4;
+  background-color: #66BFBF;
+  height: 350px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #11999E;
+  margin: 20px;
+  padding: 10px;
+  border: 10px;
+  border-radius: 70px;
+  border-style: solid;
+  border-color: #11999E;
+}
+.end_colon {
+  color: #EAF6F6;
+}
