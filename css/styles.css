@@ -1,5 +1,6 @@
 body {
-  width: auto;
+  width: 1920px;
+  max-width: 70%;
   margin: auto;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -51,10 +52,17 @@ hr {
 .top-container {
   background-color: #e4f9f5;
   padding-top: 100px;
-  position: relative;
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  left: 0;
+  z-index: -1;
 }
 
 .middle-container {
+  display: inline-block;
+  position: relative;
+  margin-top: 50rem;
 }
 
 .bottom-container {
@@ -125,8 +133,9 @@ hr {
   clear: right;
 }
 .link-music {
-  text-align: center;
-  margin: 0 auto auto 200px;
+  display: block;
+  padding: 0;
+  margin: 0;
 }
 
 .button {
@@ -150,6 +159,11 @@ hr {
   line-height: 4;
   background-color: #66BFBF;
   height: 350px;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  z-index: -1;
 }
 
 .footer-link {
@@ -164,4 +178,59 @@ hr {
 }
 .end_colon {
   color: #EAF6F6;
+}
+
+.gorin {
+  float: right;
+  left: 10rem;
+  margin: 30 auto 30 auto;
+  height: 400px;
+  width: 600px;
+}
+
+@keyframes example {
+  0%   {background-color: #FFFFFF;}
+  25%  {background-color: #FFFFFF;}
+  50%  {background-color: #98acf8;}
+  100% {background-color: #FFFFFF;}
+}
+@keyframes gay {
+  0%   {background-color: #e4f9f5; z-index: -1}
+  25%  {background-color: #e4f9f5; z-index: -1;}
+  50%  {background-color: #66BFBF; z-index: 1;}
+  75%  {background-color: #66BFBF; z-index: 1;}
+  100% {background-color: #e4f9f5; z-index: -1}
+}
+@keyframes guy {
+  0%   {background-color: #66BFBF; z-index: 1;}
+  25%  {background-color: #66BFBF; z-index: 1;}
+  50%  {background-color: #e4f9f5; z-index: -1;}
+  75%  {background-color: #e4f9f5; z-index: 1;}
+  100% {background-color: #66BFBF; z-index: 1;}
+}
+
+
+.dick {
+animation-name: example;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.invisible {
+  position: absolute;
+  animation-name: gay;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: -1
+}
+.visible {
+  animation-name: guy;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
