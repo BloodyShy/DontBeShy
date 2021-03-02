@@ -87,15 +87,14 @@ hr {
 
 .cloud1 {
   margin: auto;
-  position: absolute;
-  right: 550px;
+  position: relative;
+  left: 350px;
   top: 50px;
 }
 
 .cloud2 {
   margin: auto;
-  position: absolute;
-  left: 550px;
+  position: relative;
   bottom: 300px;
 }
 .end_colon {
@@ -126,17 +125,29 @@ hr {
   margin-right: 30px;
 }
 .gorin {
-  float: right;
-  margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
+  left: 25rem;
+  height: 350px;
+  width: 100%;
+  max-width: 650px;
+}
+.music-p {
+  display: block !important;
 }
 .contact-me {
   clear: right;
 }
 .link-music {
-  display: block;
-  padding: 0;
+  position: relative;
+  left: 0;
+  top: 20px;
   margin: 0;
+  padding: 0;
+  line-height: 1;
 }
+
+
 
 .button {
   border: 5px;
@@ -180,13 +191,7 @@ hr {
   color: #EAF6F6;
 }
 
-.gorin {
-  float: right;
-  left: 10rem;
-  margin: 30 auto 30 auto;
-  height: 400px;
-  width: 600px;
-}
+
 
 @keyframes example {
   0%   {background-color: #FFFFFF;}
